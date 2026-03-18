@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELAR ANCESTRAL - Camisas Lencas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #e63946, #ffb703, #2a9d8f, #1d3557);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2a9d8f;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffb703;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .catalogo {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        .producto {
+            background-color: #fff;
+            border: 2px solid #e63946;
+            border-radius: 10px;
+            width: 280px;
+            padding: 20px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .contacto, .pagos {
+            margin-top: 20px;
+        }
+        h2 {
+            color: #e63946;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TELAR ANCESTRAL</h1>
+        <p>Camisas Lencas de Honduras - Tradición y Estilo</p>
+    </header>
+
+    <nav>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#pagos">Métodos de Pago</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="catalogo">
+        <h2>Catálogo de Camisas Lencas</h2>
+        <div class="catalogo">
+            <div class="producto">
+                <img src="img/MUESTRA1.jpeg.jpeg" alt="Blusa Lenca Artesanal">
+                <h3>Blusa Lenca Artesanal</h3>
+            </div>
+            <div class="producto">
+                <img src="img/MUESTRA2.jpeg.jpeg" alt="Camisa Lenca Tradicional">
+                <h3>Camisa Lenca Tradicional</h3>
+                <p>L.450</p>
+            </div>
+            <div class="producto">
+                <img src="img/MODELOS.jpeg.jpeg" alt="Colección Grupo Lenca">
+                <h3>Colección Grupo Lenca</h3>
+            </div>
+            <div class="producto">
+                <img src="img/MUESTRA3.jpeg.jpeg" alt="Camisa con Detalles Lencas">
+                <h3>Camisa con Detalles Lencas</h3>
+                <p>L.350</p>
+            </div>
+            <div class="producto">
+                <img src="img/LEMPIRA.jpeg.jpeg" alt="Camisa Tela Lencas">
+                <h3>Camisa Tela Lenca</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="pagos">
+        <h2>Métodos de Pago</h2>
+        <div class="pagos">
+            <p>✔️ Transferencia bancaria</p>
+            <p>✔️ Pago en efectivo contra entrega</p>
+            <p>✔️ Tarjetas de débito y crédito</p>
+            <p>✔️ PayPal</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto">
+            <p>📞 Teléfono: +504 0000-0000</p>
+            <p>📧 Correo: telarancestral@gmail.com</p>
+            <p>📍 Ubicación: Tegucigalpa, Honduras</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 TELAR ANCESTRAL - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
